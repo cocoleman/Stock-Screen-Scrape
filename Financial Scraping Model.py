@@ -1,3 +1,10 @@
+import subprocess
+import os
+# Install required packages
+subprocess.run("pip install yfinance > NUL 2>&1", shell=True, check=True)
+subprocess.run("pip install openpyxl > NUL 2>&1", shell=True, check=True)
+subprocess.run("pip install openpyxl > NUL 2>&1", shell=True, check=True)
+
 import yfinance as yf
 import pandas as pd
 import openpyxl
